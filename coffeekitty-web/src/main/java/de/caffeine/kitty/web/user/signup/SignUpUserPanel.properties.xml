@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="header">Sign up</entry>
+	<entry key="error.user.exists">User with login ${username} already exists. Please chose another login.</entry>
+	<entry key="error.problem.usercreation">There goes something wrong with user creation and retrieval of newly created user</entry>
+	<entry key="email">Email</entry>
+	<entry key="password">Password</entry>
+	<entry key="repeatPassword">Repeat Password</entry>
+	<entry key="displayName">Display Name</entry>
+	<entry key="fullName">Full Name</entry>
+	<entry key="publishStatistics">Publish Statistics</entry>
+	<entry key="signUp">Sign up</entry>		
+</properties>

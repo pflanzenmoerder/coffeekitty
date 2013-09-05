@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="header">Become a member of a coffee kitty</entry>
+	<entry key="search">Search</entry>
+	<entry key="explanation">Use the following search form to search for a coffee kitty and request to become a member.</entry>
+</properties>

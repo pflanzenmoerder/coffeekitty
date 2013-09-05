@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd" lang="de">
+	<body>
+		<wicket:panel>
+			<h2 wicket:id="heading">
+				Caffeine levels (last 24 hours)
+			</h2>
+			<p wicket:id="description">
+				Shows your caffeine levels in the last 24 hours. You can download a CSV file with your levels on a 30-minute interval below.
+			</p>
+			<p>
+				<i class="icon-download"></i> <a wicket:id="csvdownload" href="daily.csv" id="csv-day">Download CSV</a>
+			</p>
+			<p>
+				<img wicket:id="chart" src="img/daily.png"/>
+			</p>
+		</wicket:panel>
+	</body>
+</html>

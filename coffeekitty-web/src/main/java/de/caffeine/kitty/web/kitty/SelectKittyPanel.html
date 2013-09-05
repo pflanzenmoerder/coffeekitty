@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd"
+	  xml:lang="de" lang="de">
+<body>
+<wicket:panel>
+<form wicket:id="selectKittyForm" class="form-horizontal">
+	<div class="control-group">
+		<label class="control-label"><wicket:message key="selectTitle"/></label>
+		<div class="controls">
+			<select wicket:id="kitty-select">
+				<option>The Addicts</option>
+				<option>vel dolor.</option>
+			</select>
+			<button type="submit" class="btn" wicket:id="kitty-submit"><wicket:message key="change"/></button>
+		</div>
+	</div>
+</form>
+</wicket:panel>
+</body>
+</html>

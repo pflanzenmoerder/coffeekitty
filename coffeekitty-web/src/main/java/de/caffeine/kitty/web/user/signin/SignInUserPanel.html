@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<wicket:panel>
+		<h2><wicket:message key="header"/></h2>
+		<div wicket:id="signin-feedback" class="alert alert-error">
+		
+		</div>
+		
+		<p>
+			<form wicket:id="signin-form" class="form-horizontal" action="index-authd.html">
+				<div wicket:id="signin-email_container" class="control-group">
+					<label class="control-label" for="signin-email"><wicket:message key="email"/></label>
+					<div class="controls">
+						<input wicket:id="signin-email" type="text" id="signin-email" placeholder="Email">
+					</div>
+				</div>
+				
+				<div wicket:id="signin-password_container" class="control-group">
+					<label class="control-label" for="signin-password"><wicket:message key="password"/></label>
+					<div class="controls">
+						<input wicket:id="signin-password" type="password" id="signin-password" placeholder="Password">
+					</div>
+				</div>
+				
+				<div class="control-group">
+					<div class="controls">
+						<button	wicket:id="signin-submit" id="signin-submit" type="submit" class="btn"><wicket:message key="signIn"/></button>
+					</div>
+				</div>
+			</form>
+		</p>
+
+	</wicket:panel>
+	</body>
+</html>

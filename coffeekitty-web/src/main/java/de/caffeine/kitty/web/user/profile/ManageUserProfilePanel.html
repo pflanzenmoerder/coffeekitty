@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd"
+	  xml:lang="de" lang="de">
+<body>
+<wicket:panel>
+	<h2><wicket:message key="header"/></h2>
+	<div wicket:id="update-feedback" class="alert alert-error">
+
+	</div>
+
+	<form wicket:id="update-form" class="form-horizontal">
+		<div wicket:id="update-email_container" class="control-group">
+			<label class="control-label" for="update-email">Email</label>
+			<div class="controls">
+				<input type="email" wicket:id="update-email" id="update-email" value="ulrich.staerk@fu-berlin.de">
+			</div>
+		</div>
+		<div wicket:id="update-password_container" class="control-group">
+			<label class="control-label" for="update-password"><wicket:message key="newPassword"/></label>
+			<div class="controls">
+				<input type="password" wicket:id="update-password" id="update-password">
+			</div>
+		</div>
+		<div wicket:id="update-repeat-password_container" class="control-group">
+			<label class="control-label" for="update-repeat-password"><wicket:message key="repeatPassword"/></label>
+			<div class="controls">
+				<input type="password" wicket:id="update-repeat-password" id="update-repeat-password">
+			</div>
+		</div>
+		<div wicket:id="update-displayname_container" class="control-group">
+			<label class="control-label" for="update-displayname"><wicket:message key="displayName"/></label>
+			<div class="controls">
+				<input type="text" wicket:id="update-displayname" id="update-displayname" value="Decaf">
+			</div>
+		</div>
+		<div wicket:id="update-fullname_container" class="control-group">
+			<label class="control-label" for="update-fullname"><wicket:message key="fullName"/></label>
+			<div class="controls">
+				<input type="text" wicket:id="update-fullname" id="update-fullname" value="Ulrich Stärk">
+			</div>
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				<label class="checkbox">
+					<input type="checkbox" checked="checked" wicket:id="update-publish" id="update-publish"> <wicket:message key="publishStatistics"/>
+				</label>
+			</div>
+		</div>
+		<div wicket:id="update-old-password_container" class="control-group">
+			<label class="control-label" for="update-old-password"><wicket:message key="oldPassword"/></label>
+			<div class="controls">
+				<input type="password" wicket:id="update-old-password" id="update-old-password">
+				<span class="help-inline"><wicket:message key="oldPasswordInfo"/></span>
+			</div>
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				<button type="submit" class="btn btn-primary" wicket:id="update-submit" id="update-submit"><wicket:message key="saveChanges"/></button>
+			</div>
+		</div>
+	</form>
+</wicket:panel>
+</body>
+</html>
+				  

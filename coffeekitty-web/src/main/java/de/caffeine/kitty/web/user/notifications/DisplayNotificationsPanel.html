@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd"
+	  xml:lang="de" lang="de">
+<body>
+	<wicket:panel>	
+		<h1><wicket:message key="header"/></h1>
+		<div class="alert alert-info" wicket:id="notificationsRepeater">
+			<span wicket:id="notificationMessage">John Smith (CoffeePapa) has requested to become a member of "The Addicts".</span>
+			
+			<div class="pull-right alert-controls">
+				<button type="button" class="btn btn-success btn-mini accept-member" data-dismiss="alert" wicket:id="acceptButton"><wicket:message key="accept"/></button>
+				<button type="button" class="btn btn-danger btn-mini decline-member" data-dismiss="alert" wicket:id="declineButton"><wicket:message key="decline"/></button>
+			</div>
+		</div>
+	</wicket:panel>
+</body>
+</html>

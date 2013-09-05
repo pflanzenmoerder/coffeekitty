@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="notificationMessage">${user.fullName} (${user.displayName}) has requested to become a member of "${kitty.name}".</entry>
+	<entry key="header">Notifications</entry>
+	<entry key="accept">Accept</entry>
+	<entry key="decline">Decline</entry>
+</properties>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="infoText">Set up an email alert if your caffeine level drops below a certain threshold.</entry>
+	<entry key="header">Set up email alert</entry>
+	<entry key="alertSubmit">set up alert</entry>
+</properties>

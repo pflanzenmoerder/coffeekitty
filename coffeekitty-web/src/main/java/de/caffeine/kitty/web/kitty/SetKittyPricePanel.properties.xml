@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="header">Coffee Price</entry>
+	<entry key="price">Price for one cup</entry>
+	<entry key="savePrice">Save price</entry>
+</properties>

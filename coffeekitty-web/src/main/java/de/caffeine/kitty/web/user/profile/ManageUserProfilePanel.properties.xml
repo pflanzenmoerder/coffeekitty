@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="header">Account Details</entry>
+    <entry key="wrong.password">Wrong password.</entry>
+    <entry key="newPassword">New Password</entry>
+    <entry key="oldPassword">Old Password</entry>
+    <entry key="oldPasswordInfo">Your old password must be given in order to confirm any changes.</entry>
+    <entry key="saveChanges">Save Changes</entry>
+    <entry key="repeatPassword">Repeat New Password</entry>
+    <entry key="displayName">Display Name</entry>
+    <entry key="fullName">Full Name</entry>
+    <entry key="publishStatistics">Publish Statistics</entry>
+ </properties>

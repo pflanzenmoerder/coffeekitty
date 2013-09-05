@@ -1,0 +1,16 @@
+.idea
+
+.project
+
+.settings
+.classpath
+.DS_Store
+.atlassian-ide-plugin.xml
+*.ipr
+*.iws
+*.iml
+rebel.xml
+target
+bin
+lib
+rebel.xml

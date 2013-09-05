@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+	<body>
+		<wicket:extend>
+      <div class="page-header notifications" wicket:id="displayNotifications"></div>
+      <div class="page-header">
+        <h1><wicket:message key="header"/></h1>
+      </div>
+
+      <div class="row">
+        <div class="span4">
+          <h2><wicket:message key="allTime"/></h2>  
+          <p wicket:id="hiscoresAlltime"></p>
+        </div>
+        <div class="span4">
+          <h2><wicket:message key="thisWeek"/></h2>
+          <p wicket:id="hiscoresThisweek"></p>
+        </div>
+        <div class="span4">
+          <h2><wicket:message key="today"/></h2>
+          <p>
+            <p wicket:id="hiscoresToday"></p>
+        </div>
+      </div>
+
+		</wicket:extend>
+	</body>
+</html>
+		

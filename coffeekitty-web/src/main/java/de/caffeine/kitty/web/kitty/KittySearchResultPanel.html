@@ -1,0 +1,40 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd"
+	  xml:lang="de" lang="de">
+<body>
+<wicket:panel>	
+	<h3><wicket:message key="header"/></h3>
+	<p>
+	<table class="table">
+		<thead>
+		<tr>
+			<th><wicket:message key="name"/></th>
+			<th><wicket:message key="action"/></th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr wicket:id="searchResults">
+			<td><span wicket:id="name">Kitty Name</span></td>
+			<td><button wicket:id="requestButton" type="button" class="btn-primary btn-mini member-request"><wicket:message key="requestMembership"/></button><span wicket:id="accountExistsLabel"></span></td>
+		</tr>
+		</tbody>
+	</table>
+	<div class="pagination" wicket:id="pagination">
+		<ul>
+			<li class="disabled"><a href="#">&laquo;</a></li>
+			<li class="disabled"><a href="#">&lsaquo;</a></li>
+			<li class="active"><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li class="disabled"><a href="#">...</a></li>
+			<li><a href="#">15</a></li>
+			<li class="disabled"><a href="#">...</a></li>
+			<li><a href="#">&rsaquo;</a></li>
+			<li><a href="#">&raquo;</a></li>
+		</ul>
+	</div>
+	</p>
+</wicket:panel>
+</body>
+</html>

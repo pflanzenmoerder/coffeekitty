@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="header">Members</entry>
+	<entry key="name">Name (Display Name)</entry>
+	<entry key="balance">Balance</entry>
+	<entry key="payment">Payment</entry>
+	<entry key="payments-submit">Save payments</entry>
+</properties>

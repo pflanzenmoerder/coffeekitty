@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="heading">Caffeine levels (last {0})</entry>
+	<entry key="description">Shows your caffeine levels in the last {0}. You can download a CSV file with your levels on a 30-minute interval below.</entry>
+</properties>

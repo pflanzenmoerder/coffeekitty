@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd" lang="de">
+<body>
+	<wicket:panel>
+		<h2><wicket:message key="header"/></h2>
+		<p><wicket:message key="infoText"/></p>
+		<p></p>
+		<form class="form-inline" wicket:id="alertForm">
+			<div class="input-append">
+				<input class="input-mini" type="text" wicket:id="alert-amount"/><span class="add-on">.00 mg</span>
+			</div>
+			<button type="submit" class="btn btn-primary" wicket:id="alert-submit"><wicket:message key="alertSubmit"/></button>
+		</form>
+	</wicket:panel>
+</body>
+</html>

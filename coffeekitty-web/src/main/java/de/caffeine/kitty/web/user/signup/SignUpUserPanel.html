@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+<body>
+	<wicket:panel>
+		<h2><wicket:message key="header"/></h2>
+			<div wicket:id="signup-feedback" class="alert alert-error">
+			
+			</div>
+			
+			<p>
+			<form wicket:id="signup-form" class="form-horizontal" action="index-authd-no-kitty.html">
+				
+				<div wicket:id="signup-email_container" class="control-group">
+					<label class="control-label" for="signup-email"><wicket:message key="email"/></label>
+					<div class="controls">
+						<input wicket:id="signup-email" type="email" id="signup-email" placeholder="e.g. foo@bar.com">
+					</div>
+				</div>
+				
+				<div wicket:id="signup-password_container" class="control-group">
+					<label class="control-label" for="signup-password"><wicket:message key="email"/></label>
+					<div class="controls">
+						<input wicket:id="signup-password" type="password" id="signup-password" placeholder="Password">
+					</div>
+				</div>
+				
+				<div wicket:id="signup-repeat-password_container" class="control-group">
+					<label class="control-label" for="signup-repeat-password"><wicket:message key="repeatPassword"/></label>
+					<div class="controls">
+						<input wicket:id="signup-repeat-password" type="password" id="signup-repeat-password" placeholder="Repeat Password">
+					</div>
+				</div>
+				
+				<div wicket:id="signup-displayname_container" class="control-group">
+					<label class="control-label" for="signup-displayname"><wicket:message key="displayName"/></label>
+					<div class="controls">
+						<input wicket:id="signup-displayname" type="text" id="signup-displayname" placeholder="e.g. &quot;Decaf&quot;">
+					</div>
+				</div>
+				
+				<div wicket:id="signup-fullname_container" class="control-group">
+					<label class="control-label" for="signup-fullname"><wicket:message key="fullName"/></label>
+					<div class="controls">
+						<input wicket:id="signup-fullname" type="text" id="signup-fullname" placeholder="e.g. John Smith">
+					</div>
+				</div>
+				
+				<div class="control-group">
+					<div class="controls">
+						<label class="checkbox"> <input wicket:id="signup-publish" type="checkbox" checked="checked" id="signup-publish"> <wicket:message key="publishStatistics"/> </label>
+					</div>
+				</div>
+				
+				<div class="control-group">
+					<div class="controls">
+						<button wicket:id="signup-submit" id="signup-submit" type="submit" class="btn"><wicket:message key="signUp"/></button>
+					</div>
+				</div>
+			</form>
+		</p>
+	</wicket:panel>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="header">Welcome to CafMan by Company!</entry>
+	<entry key="message">CafMan is your all-purpose Caffeine Manager. 
+					It allows you to manage your team's coffee kitty, and plan and monitor your caffeine intoxication.</entry>
+</properties>

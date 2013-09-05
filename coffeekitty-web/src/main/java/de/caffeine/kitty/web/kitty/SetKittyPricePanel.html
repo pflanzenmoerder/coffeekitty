@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+	<body>
+		<wicket:panel>
+          <h2><wicket:message key="header"/></h2>
+          <p>
+            <form class="form-horizontal" wicket:id="kittyPriceForm">
+              <div class="control-group">
+              <label class="control-label" for="coffee-price"><wicket:message key="price"/></label>
+              <div class="controls">
+                <div class="input-prepend"><span class="add-on">€</span><input id="price" type="text" class="input-small" wicket:id="pricePerMugInEuro"></div>
+              </div>
+              </div>
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary" id="price-submit"><wicket:message key="savePrice"/></button>
+              </div>
+            </form>
+           </p>
+		</wicket:panel>
+	</body>
+</html>
